@@ -1,0 +1,68 @@
+body{
+    background-color:darkgrey;
+}
+
+div{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.upper{
+   display: flex;
+   justify-content: center; 
+   align-items: center;   
+}
+
+#banniere{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 200px;
+    max-width: 700px;
+}
+
+
+h1{
+    position: absolute;
+    color: white;
+}
+
+.navigateur{
+    display: flex;
+    justify-content: center;
+    background-color:dimgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navigateur li{
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.imgal{
+    width: 300px;
+    height: 300px;
+}
+
+.imgal:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.25);
+}
+
+.blur{
+    transition: transform 0.3s ease;
+    filter: blur(5px);
+}
