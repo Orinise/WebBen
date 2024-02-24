@@ -1,13 +1,8 @@
-        var Element = document.querySelectorAll('.galerie');
-        var test = document.getElementById('test');
-
-        if(test){
-            test.textContent = 'Ceci est un test';
-        }
+        var Element = document.querySelectorAll('.imgal');
         
         Element.forEach(function(element){
-            element.addEventListener("mouseover",function(){
-                test.textContent = ("ceci est un test");
+            element.addEventListener("mouseover",function(event){
+                bluradd(event.target);
             });
 
             element.addEventListener("mouseout",function(){
@@ -15,17 +10,21 @@
             });
         });
 
-        function bluradd(){
+        function bluradd(element){
             var allElement = document.querySelectorAll('body > *');
-            allElement.forEach(function (element){
-                element.classList.add('blur');
+            allElement.forEach(function (elements){
+                if(elements !== element){
+                    elements.style.filter = 'blur(5px)';
+                } else{
+                    alert('ca marche');
+                }
             });
         }
 
         function blurremove(){
             var allElement = document.querySelectorAll('body > *');
             allElement.forEach(function (element){
-                element.classList.remove('blur');
+                element.style.filter = 'none';
             });
         }
 
