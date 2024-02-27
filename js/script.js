@@ -15,10 +15,8 @@
             allElement.forEach(function (elements){
                 if(elements !== element){
                     elements.style.filter = 'blur(5px)';
-                } else{
-                    alert('ca marche');
-                }
-            });
+        }});
+            element.style.filter = 'none';
         }
 
         function blurremove(){
