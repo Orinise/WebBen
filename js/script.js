@@ -1,3 +1,7 @@
+        //#########################################
+        // Fonction blur
+        //######################################### 
+
         var Element = document.querySelectorAll('.imgal');
         
         Element.forEach(function(element){
