@@ -20,7 +20,7 @@
                 if(elements !== element){
                     elements.style.filter = 'blur(5px)';
         }});
-            element.style.filter = 'none';
+            element.id.style.filter = 'none';
         }
 
         function blurremove(){
