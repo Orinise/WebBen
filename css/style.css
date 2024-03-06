@@ -1,8 +1,11 @@
+* {margin:0; padding:0;}
+
 body{
-    background-color:#545454;
     margin:0;
+    padding:0;
     font-family:"athena",sans-serif;
 }
+
 
 .upper{
    display: flex;
@@ -75,12 +78,21 @@ h1{
 .imgal{
     width: 90%;
     height: 90%;
+    transition: transform 0.3s ease, border-radius 0.3s ease;
 }
 
 .imgal:hover{
-    transition: transform 0.3s ease;
     transform: scale(1.25);
+    border-radius: 5%;
 }
+
+
+.footer{
+    color: white;
+    height: 100%;
+    background-color: rgba(128, 128, 118, 0.5);
+}
+
 
 .blur{
     transition: transform 0.3s ease;
