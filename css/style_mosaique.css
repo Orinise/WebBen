@@ -1,0 +1,52 @@
+* {margin:0; padding:0;}
+
+body{
+    font-family:"athena",sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 300px;
+    background-image: url("../image/Banniere fond site/2.1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    
+}
+
+.project{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+}
+
+.mosaique{
+    background-color: black;
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.mosaique p{
+    color: white;
+}
+
+.description{
+    background-color: blue;
+    grid-column: 3;
+    align-content: center;
+}
+
+.description p {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}

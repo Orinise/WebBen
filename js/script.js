@@ -1,13 +1,12 @@
         //#########################################
         // Fonction mosaique
-        //######################################### 
-        
-        // import * as fs from 'fs';
+        //#########################################
+        import * as fs from '/usr/include/linux/fs.h';
+
         var image = document.querySelectorAll('.imgal');
 
         image.forEach(function(element) {
           element.addEventListener("mouseover", function(){
-            alert("dossier");
 
             const dossier = "../image/Knit";
             var nb_element = 0;
