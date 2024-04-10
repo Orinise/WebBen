@@ -1,27 +1,33 @@
         //#########################################
         // Fonction mosaique
         //#########################################
-        import * as fs from '/usr/include/linux/fs.h';
+        // import * as fs from 'fs';
 
-        var image = document.querySelectorAll('.imgal');
+        var image = document.querySelectorAll('.container a');
+        // document.getElementById('test').innerText = "ahjajajajajjaajjaj";
+
+        function changertitre(){
+          document.getElementById('ttt').innerText = "ahjajajajajjaajjaj";
+        }
 
         image.forEach(function(element) {
-          element.addEventListener("mouseover", function(){
+          element.addEventListener("click", function(){
+            if (element.id === "Sculpture"){
+              changertitre();
 
-            const dossier = "../image/Knit";
-            var nb_element = 0;
+              var nouvellepage = window.open("./html/mosaique.html");
 
-            fs.readdir(dossier, (err, fichiers) => {
-                if (err) {
-                  alert('Erreur lors de la lecture du dossier :' + err);
-                  return;
-                }
-                alert('Nombre d\'éléments dans le dossier :' + fichiers.length);
-                nb_element = fichiers.length;
-              });
-          });
-          
-        });
+              nouvellepage.addEventListener("load", function(){
+                  var titre = document.getElementById("ttt");
+                  if (titre){
+                    nouvellepage.alert(titre.tagName);
+                    titre.innerText = "Ca marche !!!!!!!";
+                  } else{
+                    console.log("titre marche pas");
+                  }});
+            }
+        })});
+
 
 
         
