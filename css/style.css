@@ -15,14 +15,14 @@ body{
 
 
 .upper{
-   display: flex;
-   justify-content: center; 
-   align-items: center;
-   margin: 0 auto;
-   height: 700px;
-   width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 auto;
+    height: 700px;
+    width: 100%;
     top: 0px;
-    background-image: url("../image/Banniere fond site/banner.jpg");
+    background-image: url("../image/Banniere fond site/DSC_0029.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -46,7 +46,7 @@ a{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-image: url("../image/Banniere fond site/DSC_0001-2.jpg");
+    background-image: url("../image/Banniere fond site/Peinture\ metrage\ 50cm.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -117,6 +117,7 @@ a{
 
 .container a p{
     position: absolute;
+    word-break: break-all;
     width: 100%;
     top: 50%;
     left: 50%;
