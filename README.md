@@ -27,3 +27,10 @@ Update contact
 - Changer des tailles de police en em
 - suppression de ligne css inutile pour les mosaïques
 - suppression du fichier contact.html
+
+#######################################
+
+Update responsive
+
+- responsivité de la page d'acceuille et des galeries
+- changements des tailles de base

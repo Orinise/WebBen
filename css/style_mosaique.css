@@ -38,7 +38,8 @@ h1 {
 
 .project {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2.5fr 1.5fr;
+    gap: 30px;
 }
 
 .mosaique {
@@ -98,4 +99,36 @@ h1 {
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
+}
+
+@media (max-width: 1150px) {
+    .mosaique {
+        /* grid-template-columns: 1fr 1fr; */
+    }
+
+    .description {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 980px) {
+    .mosaique {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .mosaique {
+        grid-template-columns: 1fr;
+    }
+
+    .mosaique a {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .description {
+        font-size: 1em;
+        column-count: 1;
+    }
 }
