@@ -18,3 +18,12 @@ Update mosaique
 - Changement des images du fond de site
 - Ajout de break dans les p de la mosaique de l'index
 - Ajout d'un break all dans style.css pour les p de la mosaique
+
+######################################
+
+Update contact
+
+- Ajout du footer/contact dans les fichiers html
+- Changer des tailles de police en em
+- suppression de ligne css inutile pour les mosaïques
+- suppression du fichier contact.html

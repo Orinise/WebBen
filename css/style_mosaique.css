@@ -1,23 +1,24 @@
-* {margin:0; padding:0;}
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 @font-face {
-    font-family: 'CustomFont';
-    src: url('../font/didot-2/Didot.otf') format('opentype');
+    font-family: "CustomFont";
+    src: url("../font/didot-2/Didot.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 
-body{
-    font-family:'CustomFont', sans-serif;
+body {
+    font-family: "CustomFont", sans-serif;
 }
 
-li{
+li {
     list-style: none;
 }
 
-
-.header{
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,78 +30,70 @@ li{
     background-size: cover;
 }
 
-h1{
+h1 {
     color: white;
-    font-size: 150px;
+    font-size: 5em;
     text-transform: uppercase;
 }
 
-.project{
-    max-height: 100%;
-    max-width: 100%;
+.project {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 120px;
+    grid-template-columns: 3fr 1fr;
 }
 
-.mosaique{
+.mosaique {
     padding: 55px 0 40px 40px;
-    grid-column: 1/3;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
     margin-left: auto;
     margin-right: auto;
     grid-gap: 6px;
 }
 
-.mosaique a{
+.mosaique a {
     width: 22vw;
     height: 22vw;
 }
 
-.mosaique img{
+.mosaique img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
 }
 
-.mosaique img:hover{
-    transform: scale(1.15) ;
+.mosaique img:hover {
+    transform: scale(1.15);
 }
 
-.description{
+.description {
     column-count: 2;
-
     column-gap: 20px;
-    margin: 20px;
-    padding: 55px 20px 40px 20px;
     text-align: justify;
-    font-size: 22px;
+    font-size: 1.5em;
+    padding-top: 55px;
+    padding-right: 25px;
 }
 
-.pdf{
+.pdf {
     max-height: 100%;
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.pdf h2{
+.pdf h2 {
     padding-left: 40px;
     text-align: center;
     font-size: 50px;
 }
 
-.pdf a{
+.pdf a {
     width: 22vw;
     height: 22vw;
 }
 
-.pdf img{
+.pdf img {
     width: 100%;
     height: 100%;
     object-fit: cover;
