@@ -127,6 +127,35 @@ a {
     transform: translate(-50%, -50%);
 }
 
+.contact {
+    display: flex;
+    list-style: none;
+    color: white;
+    background-image: url("../image/Banniere\ fond\ site/2.1.jpg");
+    padding-top: 10px;
+}
+
+.contact li {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#instagram {
+    height: 50px;
+}
+
 @media (max-width: 1260px) {
     .container a p {
         font-size: 3em;

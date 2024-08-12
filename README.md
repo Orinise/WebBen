@@ -34,3 +34,11 @@ Update responsive
 
 - responsivité de la page d'acceuille et des galeries
 - changements des tailles de base
+
+#######################################
+
+Update contact
+
+- ajout des éléments de contact
+- ajout du script JS pour les boutons mail et tel
+- ajout d'image pour instagram
