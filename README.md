@@ -42,3 +42,9 @@ Update contact
 - ajout des éléments de contact
 - ajout du script JS pour les boutons mail et tel
 - ajout d'image pour instagram
+
+#######################################
+
+Update contact style
+
+- changement du défilement de l'image de fond du upper pour les téléphones

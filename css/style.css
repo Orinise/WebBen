@@ -177,6 +177,11 @@ button:hover {
 }
 
 @media (max-width: 740px) {
+    .upper {
+        background-attachment: scroll;
+        background-size: auto;
+    }
+
     h1 {
         font-size: 4em;
     }
