@@ -48,3 +48,9 @@ Update contact
 Update contact style
 
 - changement du défilement de l'image de fond du upper pour les téléphones
+
+#######################################
+
+Correction lien
+
+- correction du lien avellano
