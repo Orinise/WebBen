@@ -54,3 +54,9 @@ Update contact style
 Correction lien
 
 - correction du lien avellano
+
+#######################################
+
+Correction titre
+
+- correction des titres html
